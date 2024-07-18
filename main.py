@@ -13,7 +13,7 @@ GOAL:
 
 
 #initializing my_strings array
-my_strings = [None, None]
+my_strings = [None, None, None]
 
 '''
 **************************************1ST WAY*************************************************
@@ -52,12 +52,15 @@ button_2_python.onclick = way_2_print #calls function 'way_2_print' when button 
 **************************************Your Function below (USE 2ND WAY)*************************************************
 
 '''
-def your_function_here(event):
-    #YOUR CODE HERE
-    #YOUR CODE HERE
-    #YOUR CODE HERE
-    #YOUR CODE HERE
-    pass #delete this 
+def way_3_print(event):
+    global my_strings #gets my my_strings array
+    string3 = "BUTT"
+    my_strings[2] = string3 #storing string 2 in array
+    print('"',string3, '" loaded into my_strings array')
+
+#linking
+button_3_python = document.getElementById('my_button3_id') #gets button from html
+button_3_python.onclick = way_3_print #calls function 'way_2_print' when button is clicked
    
 
 
