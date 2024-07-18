@@ -1,6 +1,6 @@
 from pyscript import document, window, when
 print("Hello, World!")
-
+print("Ben")
 
 '''
 Here are two ways of linking a button with a python function:
